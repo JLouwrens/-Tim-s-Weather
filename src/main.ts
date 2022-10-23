@@ -119,15 +119,15 @@ function weatherInfoDisplay(lon: number, lat: number, tzshift: number) {
 
         if (dayOneWeather) {
           dayOneWeather.innerText = '';
-          dayOneWeather.innerText = dayOne.weather;
+          dayOneWeather.innerText = dayOne.rh2m;
         }
         if (dayTwoWeather) {
           dayTwoWeather.innerText = '';
-          dayTwoWeather.innerText = dayTwo.weather;
+          dayTwoWeather.innerText = dayTwo.rh2m;
         }
         if (dayThreeWeather) {
           dayThreeWeather.innerText = '';
-          dayThreeWeather.innerText = dayThree.weather;
+          dayThreeWeather.innerText = dayThree.rh2m;
         }
 
         if (dayOneWindDirection) {
