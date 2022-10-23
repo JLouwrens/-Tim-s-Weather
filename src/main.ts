@@ -29,11 +29,11 @@ const dayTwoTemp = document.getElementById('day-two-temp');
 
 const dayThreeTemp = document.getElementById('day-three-temp');
 
-const dayOneWeather = document.getElementById('day-one-weather');
+const dayOneWeather = document.getElementById('day-one-chance-of-rain');
 
-const dayTwoWeather = document.getElementById('day-two-weather');
+const dayTwoWeather = document.getElementById('day-two-chance-of-rain');
 
-const dayThreeWeather = document.getElementById('day-three-weather');
+const dayThreeWeather = document.getElementById('day-three-chance-of-rain');
 
 const dayOneWindDirection = document.getElementById('day-one-wind-direction');
 
