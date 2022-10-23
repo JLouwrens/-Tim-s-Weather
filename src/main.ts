@@ -29,11 +29,11 @@ const dayTwoTemp = document.getElementById('day-two-temp');
 
 const dayThreeTemp = document.getElementById('day-three-temp');
 
-const dayOneWeather = document.getElementById('day-one-chance-of-rain');
+const dayOneChanceOfRain = document.getElementById('day-one-chance-of-rain');
 
-const dayTwoWeather = document.getElementById('day-two-chance-of-rain');
+const dayTwoChanceOfRain = document.getElementById('day-two-chance-of-rain');
 
-const dayThreeWeather = document.getElementById('day-three-chance-of-rain');
+const dayThreeChanceOfRain = document.getElementById('day-three-');
 
 const dayOneWindDirection = document.getElementById('day-one-wind-direction');
 
@@ -117,17 +117,17 @@ function weatherInfoDisplay(lon: number, lat: number, tzshift: number) {
           dayThreeTemp.innerText = dayThree.temp2m;
         }
 
-        if (dayOneWeather) {
-          dayOneWeather.innerText = '';
-          dayOneWeather.innerText = dayOne.rh2m;
+        if (dayOneChanceOfRain) {
+          dayOneChanceOfRain.innerText = '';
+          dayOneChanceOfRain.innerText = dayOne.rh2m;
         }
-        if (dayTwoWeather) {
-          dayTwoWeather.innerText = '';
-          dayTwoWeather.innerText = dayTwo.rh2m;
+        if (dayTwoChanceOfRain) {
+          dayTwoChanceOfRain.innerText = '';
+          dayTwoChanceOfRain.innerText = dayTwo.rh2m;
         }
-        if (dayThreeWeather) {
-          dayThreeWeather.innerText = '';
-          dayThreeWeather.innerText = dayThree.rh2m;
+        if (dayThreeChanceOfRain) {
+          dayThreeChanceOfRain.innerText = '';
+          dayThreeChanceOfRain.innerText = dayThree.rh2m;
         }
 
         if (dayOneWindDirection) {
