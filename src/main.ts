@@ -33,7 +33,9 @@ const dayOneChanceOfRain = document.getElementById('day-one-chance-of-rain');
 
 const dayTwoChanceOfRain = document.getElementById('day-two-chance-of-rain');
 
-const dayThreeChanceOfRain = document.getElementById('day-three-');
+const dayThreeChanceOfRain = document.getElementById(
+  'day-three-chance-of-rain'
+);
 
 const dayOneWindDirection = document.getElementById('day-one-wind-direction');
 
